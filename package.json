@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "eslint .",
     "stylelint": "npx stylelint \"**/*.scss\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepare-merge": "npm run lint & npm run stylelint"
   },
   "private": true,
   "dependencies": {
