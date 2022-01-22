@@ -1,0 +1,23 @@
+$black: #000;
+$white: #fff;
+$color-palette: (
+  primary: #1dd3e4,
+  secondary: #e1e1e1,
+  tertiary: #171717,
+  quaternary: #232323,
+  quinary: #000,
+  senary: #000,
+);
+$color-primary: map.get($color-palette, primary);
+$color-secondary: map.get($color-palette, secondary);
+$color-tertiary: map.get($color-palette, tertiary);
+$color-quaternary: map.get($color-palette, quaternary);
+$color-quinary: map.get($color-palette, quinary);
+$color-senary: map.get($color-palette, senary);
+
+// combined
+$navbars-bg: $color-tertiary;
+$navbars-element-bg: $color-quaternary;
+$main-header-color: $color-secondary;
+$heading-color: $color-primary;
+$default-theme-bright-font-color: rgb(255 255 255 / 60%);

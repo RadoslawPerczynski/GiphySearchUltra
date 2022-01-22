@@ -1,0 +1,24 @@
+@import '@app/mixins';
+
+$font-size-palette: (
+  xs: rem(10),
+  s: rem(12),
+  m: rem(14),
+  l: rem(16),
+  xl: rem(18),
+  xxl: rem(20),
+);
+$font-size-xs: map.get($font-size-palette, xs);
+$font-size-s: map.get($font-size-palette, s);
+$font-size-m: map.get($font-size-palette, m);
+$font-size-l: map.get($font-size-palette, l);
+$font-size-xl: map.get($font-size-palette, xl);
+$font-size-xxl: map.get($font-size-palette, xxl);
+$border-radius-palette: (
+  xs: rem(5),
+  s: rem(10),
+  xl: rem(15),
+);
+$radius-xs: map.get($border-radius-palette, xs);
+$radius-s: map.get($border-radius-palette, s);
+$radius-xl: map.get($border-radius-palette, xl);

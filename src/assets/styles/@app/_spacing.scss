@@ -1,0 +1,16 @@
+@import '@app/mixins';
+
+$spacing-palette: (
+  xs: rem(5),
+  s: rem(10),
+  m: rem(16),
+  l: rem(20),
+  xl: rem(25),
+  xxl: rem(32),
+);
+$spacing-xs: map.get($spacing-palette, xs);
+$spacing-s: map.get($spacing-palette, s);
+$spacing-m: map.get($spacing-palette, m);
+$spacing-l: map.get($spacing-palette, l);
+$spacing-xl: map.get($spacing-palette, xl);
+$spacing-xxl: map.get($spacing-palette, xxl);
